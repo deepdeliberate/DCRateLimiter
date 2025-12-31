@@ -1,4 +1,5 @@
 package com.example.DCRateLimiter.limiter;
 
-public class RateLimiter {
+public interface RateLimiter {
+    boolean allowRequest(String key);
 }
